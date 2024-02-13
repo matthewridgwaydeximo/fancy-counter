@@ -1,7 +1,9 @@
+import Card from "./Components/Card";
+
 export default function App() {
     return (
         <>
-            <h1>Hello everyone!</h1>
+            <Card />
         </>
     );
 }
