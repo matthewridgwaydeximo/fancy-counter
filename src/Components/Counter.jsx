@@ -1,3 +1,3 @@
 export default function Counter() {
-    return <p>0</p>;
+    return <p className="count">0</p>;
 }

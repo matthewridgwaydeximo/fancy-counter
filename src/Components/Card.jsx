@@ -5,11 +5,11 @@ import Title from "./Title";
 
 export default function Card() {
     return (
-        <>
+        <div className="card">
             <Title />
             <Counter />
             <ResetButton />
             <CountButtons />
-        </>
+        </div>
     );
 }
