@@ -41,7 +41,6 @@ main {
     transition: all 0.4s;
 }
 
-/* TODO: Use this class after you implemented the logic for card limit */
 .card--limit {
     background-color: #a3d11b;
 }
