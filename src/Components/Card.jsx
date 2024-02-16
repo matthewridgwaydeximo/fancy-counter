@@ -11,7 +11,7 @@ export default function Card() {
         <div className="card">
             <Title />
             <Counter count={count} />
-            <ResetButton />
+            <ResetButton setCount={setCount} />
             <CountButtons setCount={setCount} />
         </div>
     );
