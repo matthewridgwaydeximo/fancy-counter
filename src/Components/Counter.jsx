@@ -1,7 +1,3 @@
-export default function Counter({ count, ...props }) {
-    return (
-        <p className="count" {...props}>
-            {count}
-        </p>
-    );
+export default function Counter({ count }) {
+    return <p className="count">{count}</p>;
 }
